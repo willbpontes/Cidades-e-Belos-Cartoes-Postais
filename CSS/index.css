@@ -1,0 +1,55 @@
+body{
+    background-image: url("../Images/plane.jpg");
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkorange;
+    border-radius: 10px;
+}
+
+.nomeSite{
+    text-align: center;
+    width: 550px;
+    border: 500px;
+    color: black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}    
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkgrey;
+    padding: 5px 5px;
+    text-align: center;
+    width: 200px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.locais{
+    border: 1px darkolivegreen;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locais h2 {
+    font-size: 24px;
+    margin: 10px;
+  }

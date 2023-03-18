@@ -1,0 +1,37 @@
+body{
+    background-color: lightcyan;
+    max-width: 100%;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkgrey;
+    padding: 5px 5px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.locais{
+    border: 1px darkolivegreen;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+    display: flex;  /*Transforma o h2 permitindo uma alteração maior*/
+    justify-content: space-around; /*Distribui o espaço de maneira igual, permitindo que fiquem lado a lado*/
+}
+
+.descricao{
+    font-size: medium;
+}
+
+.index{
+    color: rgb(112, 22, 139);
+    background: darkgray;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 20px;
+}
